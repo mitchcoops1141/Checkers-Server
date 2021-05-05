@@ -17,4 +17,4 @@ app.post(/\/set_checkerboard\/(.*)\/(.*)/, function (request, response) {
     turn = checker_board_turn;
     response.send();
 });
-app.listen(9000);
+app.listen(8080);
